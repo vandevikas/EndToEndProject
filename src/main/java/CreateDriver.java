@@ -1,5 +1,7 @@
 import org.openqa.selenium.WebDriver;
 
+import java.util.Map;
+
 /**
  * Singleton Class
  * with private constructor and static method to get instance of object.
@@ -21,6 +23,10 @@ public class CreateDriver {
 
     //constructor
     private CreateDriver() {
+
+    }
+
+    public final void setDriver(String browser, String platform, String environment, Map<String, Object>... optPreferences) {
 
     }
 

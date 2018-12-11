@@ -22,8 +22,12 @@ Book used: Safari: Selenium Framework Design in Data Driven Testing.
 The singleton driver class(single thread)	
 	A Java singleton class will be used to create the driver class.
 	Use same object for all instances where WebDriver is required.
+
 	
 
 A singleton class contains a private constructor and a static (get instance) method.
 
+
+
+GIT -> Commit -> push
 	
