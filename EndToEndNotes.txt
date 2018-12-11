@@ -1,0 +1,25 @@
+End To End Project with Documentation:
+
+1. Maven project:
+	While creating maven project we get these three fields: 
+	a. groupId uniquely identifies your project across all projects.
+	A groupId must follow Java's package name rules. This means it must start with a reversed domain name you control.
+	org.learning.selenium.EndToEndFramework (where EndToEndFramework is addition to selenium project)
+	
+	b. artifactId is the name of the jar without version.
+	you can choose whatever name you want with lowercase letters and no strange symbols.
+	dataDrivenFramework 
+	
+	c. version if you distribute it, then you can choose any typical version with numbers and dots (1.0, 1.1, 1.0.1, ...). Don't use dates as they are usually associated with SNAPSHOT (nightly) builds.
+
+
+
+Book used: Safari: Selenium Framework Design in Data Driven Testing.
+(These notes will be specific to project(i.e what ever I am creating in the framework) and not what is given in the book)
+
+
+
+The singleton driver class(single thread)	
+	A Java singleton class will be used to create the driver class.
+	Use same object for all instances where WebDriver is required.
+	
